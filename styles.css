@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c4c4c4;
+    font-size: 14px;
+}
+
+.resume_wrapper {
+    display: flex;
+    width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 10px;
+}
+
+.resume_left {
+    width: 35%;
+    background-color: #26252d;
+    color: #fff;
+    padding: 20px 30px;
+}
+
+.resume_image {
+    width: 100%;
+}
+
+.resume_title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.resume_info {
+    color: #84838b;
+}
+
+.resume_item {
+    padding: 20px 0;
+    border-bottom: 1px solid #0175b2;
+}
+
+.resume_subtitle {
+    color: #fff;
+    margin-bottom: 2px;
+}
+
+.resume_wrapper .resume_left .resume_skills .skills_list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.resume_wrapper .resume_left .resume_skills .skills_list .skills_bar p {
+    position: relative;
+    width: 120px;
+    height: 20px;
+    background-color: #fff;
+}
+
+.resume_wrapper .resume_left .resume_skills .skills_list .skills_bar p span {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+}
+
+.resume_right {
+    width: 65%;
+    padding: 20px 40px;
+    color: #26252d;
+}
+
+.resume_right .resume_name .name {
+    font-size: 30px;
+}
+
+.resume_right .resume_name .designation {
+    font-size: 14px;
+}
+
+.resume_right .resume_title {
+    color: #000;
+}
+
+.resume_data {
+    display: flex;
+}
+
+.resume_data .year {
+    padding-right: 30px;
+    width: 120px;
+    position: relative;
+}
+
+.resume_data .content {
+    padding-left: 35px;
+    margin-bottom: 20px;
+    width: calc(100% - 120px);
+}
